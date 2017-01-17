@@ -1,5 +1,6 @@
 body {
     background-color:floralwhite;
+    font-family: monospace;
 }
 
 header {
@@ -9,7 +10,6 @@ header {
 }
 h1 {
     text-align: center;
-    font-family: monospace;
     color:palevioletred;
     font-size: 3em;
 }
@@ -25,27 +25,24 @@ div {
 
 li {
     color:palegreen;
-    font-family: monospace;
     font-size: 1.5em;
 }
 
 h2 {
     color:orchid;
     text-align: center;
-    font-family: monospace;
     font-size: 2em;
 }
 
 a {
       color:pink;
-    font-family: monospace;
     font-size: 1em;
 }
 
 footer {
     background-color: white;
     font-family: serif;
-   clear:both;
+    clear:both;
     text-align: center;
     margin-top:10%;
     color:aliceblue;

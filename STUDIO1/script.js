@@ -1,28 +1,58 @@
 // p5 file
 
-// open the console window of any browser to see console.log() messages,
-// like print() messages in Processing
 console.log("hello");
-/*
-void setup() {
-  background (255);
-  size (800, 250);
-}
-*/
 
-function setup() {
-  var myCanvas=createCanvas(800,250);
-  myCanvas.parent('mySketch')
-  createCanvas(800, 250);
+function setup(){
+  var myCanvas= createCanvas (800,250);
+  myCanvas.parent('mySketch');
   background(255);
 }
-
 function draw() {
-  // statements here
-  ellipse(mouseX, mouseY, 50, 50);
-  if (mouseIsPressed){
-    fill(0);
-  } else {
-    fill(255);
+background(100);
+noStroke ();
+      colorMode(HSB,360,100,1);
+  var r= map (mouseX,0,width-250,0,100);
+  var g= map (mouseX,0,width-250,0,100);
+  var b= map (mouseX,0,width-250,0,100);
+
+
+//Large Square
+    fill(r,g-50,b);
+    rect(0,0,200,250);
+//Medium Square
+    fill(r-50,g,b);
+    rect(50,75,100,100);
+ //Small Square
+    fill(r-100,g,b);
+    rect(75,100,50,50);
+
+ //Large Square 2
+    fill(r,g-50,b);
+    rect(200,0,200,250);
+//Medium Square 2
+    fill(r-50,g,b);
+    rect(250,75,100,100);
+ //Small Square 2
+    fill(r-100,g,b);
+    rect(275,100,50,50);
+
+  //Large Square 3
+    fill(r,g-50,b);
+    rect(400,0,200,250);
+//Medium Square 3
+    fill(r-50,g,b);
+    rect(450,75,100,100);
+ //Small Square 3
+    fill(r-100,g,b);
+    rect(475,100,50,50);
+
+  //Large Square 4
+    fill(r,g-50,b);
+    rect(600,0,200,250);
+//Medium Square 4
+    fill(r-50,g,b);
+    rect(650,75,100,100);
+ //Small Square 4
+    fill(r-100,g,b);
+    rect(675,100,50,50)
   }
-}

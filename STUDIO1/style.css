@@ -4,13 +4,12 @@ body {
 
 header {
     width:800px;
-    height:200px;
-    background-color:aquamarine;
+    height:250px;
     margin-left: 15%;
 }
 h1 {
     text-align: center;
-    font-family: monospace; 
+    font-family: monospace;
     color:palevioletred;
     font-size: 3em;
 }
@@ -26,23 +25,23 @@ div {
 
 li {
     color:palegreen;
-    font-family: monospace; 
+    font-family: monospace;
     font-size: 1.5em;
 }
 
 h2 {
     color:orchid;
     text-align: center;
-    font-family: monospace; 
+    font-family: monospace;
     font-size: 2em;
 }
 
 a {
       color:pink;
-    font-family: monospace; 
+    font-family: monospace;
     font-size: 1em;
 }
-    
+
 footer {
     background-color: white;
     font-family: serif;

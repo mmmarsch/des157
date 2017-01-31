@@ -83,3 +83,15 @@ input[type="reset"], input[type="submit"] {
   font-weight:bold;
   font-size:18px;
 }
+
+footer {
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    height:3%;
+    background-color: black;
+    font-family: serif;
+    clear:both;
+    text-align: center;
+    color:yellow;
+}

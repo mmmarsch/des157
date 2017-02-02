@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* start all css with a reset */
+
+* {
+  margin: 0px;
+  padding: 0px
+}
+
+body {
+  background-color: pink;
+}
+
+#background {
+  margin-left: 1%;
+  margin-top: 2%;
+  float: left;
+  border-radius: 25px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 0%;
+  padding-bottom: 1%;
+  padding-left: 0%;
+  padding-right: 0%;
+  margin-top: 1%;
+  color: #CEACE6;
+  font-size: 5em;
+  background-color: white;
+  border-radius: 25px;
+  font-family: "Comic Sans MS";
+}
+
+nav {
+  color: #CEACE6;
+  font-family: "Comic Sans MS";
+  text-align: center;
+  padding: 2%;
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 2%;
+  float: left;
+  width: 20%;
+  display: block;
+  border-radius: 25px;
+}

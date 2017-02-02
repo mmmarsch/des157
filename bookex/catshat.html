@@ -1,0 +1,38 @@
+<!--NOTE: Replace all of the uppercase text from glenda with your own custom content-->
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Book Excercises!</title>
+</head>
+
+<body>
+    <h1> Chapter 13 Exercise: Cat's Hat </h1>
+  <p>
+      <!-- because there are two images we have to give them id's to call them -->
+    <img src="http://eloquentjavascript.net/img/cat.png" id="cat" style="position: relative">
+    <img src="http://eloquentjavascript.net/img/hat.png" id="hat" style="position: relative">
+  </p>
+    <script>
+    //create a function with value min
+    var cat = document.querySelector("#cat");
+    var hat = document.querySelector("#hat");
+    var angle = 0, lastTime = null;
+
+    function animate(time) {
+      if (lastTime != null)
+        angle += (time - lastTime) * 0.001;
+      lastTime = time;
+      cat.style.top = (Math.sin(angle) * 20) + 100 + "px";
+      cat.style.left = (Math.cos(angle) * 200)  + 150 +  "px";
+      hat.style.top = (Math.sin(angle+Math.PI) * 20)  + 100 + "px";
+      hat.style.left = (Math.cos(angle+Math.PI) * 200) + 150 + "px";
+      requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+
+
+
+    </script>
+</body>

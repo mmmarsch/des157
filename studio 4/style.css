@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+/* add your custom css here */
+
+body {
+  background: grey;
+}
+
+li {
+  margin: .5%;
+  height: 10%;
+  float: left;
+  padding: .5%;
+  top: 15%;
+  font-family: helvetica;
+  font-size: 1.4em;
+  font-weight: bold;
+  background-color: white;
+}
+
+li:hover {
+  background:red;
+}
+
+nav {
+  margin-top: 3%;
+  width: 50%;
+  margin-left:20%;
+  background-color: white;
+}
+
+h1 {
+  padding: 1%;
+  font-family: helvetica;
+  font-size: 5em;
+  width: 50%;
+  float: right;
+  text-align: center;
+  background-color: white;
+}
+
+h2 {
+  padding:2%;
+  font-family: helvetica;
+  font-size: 3em;
+  font-weight: bold;
+  color:black;
+}
+
+
+h3 {
+  padding:2%;
+  font-family: helvetica;
+  font-size: 2em;
+  color:red;
+}
+
+#timer {
+  padding: 1%;
+  font-family: helvetica;
+  font-size: 5em;
+  width: 46%;
+  float: left;
+  text-align: center;
+  background-color: black;
+  color:red;
+  font-family: helvetica;
+}
+
+aside {
+  float: right;
+  margin-right: 5%;
+  width: 35%;
+  height:100%;
+  background: white;
+  padding: 5%;
+  font-family: helvetica;
+  font-size: 1.3em;
+  margin-top:8%;
+}
+
+.clock {
+  background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTwo {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockThree {
+    background-color: red;
+  position:fixed;
+margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockFour {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockFive {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockSix {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockSeven {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockEight {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockNine {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockEleven {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTwelve {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockThirteen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockFourteen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockFifteen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockSixteen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockSeventeen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockEighteen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockNineteen {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTwenty {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTwentyOne {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTwentyTwo {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTwentyThree {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+.clockTwentyFour {
+    background-color: red;
+  position:fixed;
+  margin-top:13%;
+  margin-left:5%;
+  float:left;
+}
+
+
+
+footer {
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    height:3%;
+    background-color: black;
+    text-align: center;
+    padding-top:1%;
+}
+
+a {
+  color:red;
+  font-family: serif;
+  font-size:1em;
+}

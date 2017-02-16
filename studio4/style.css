@@ -50,6 +50,7 @@ table {
 /* add your custom css here */
 body {
   background-image: url("trump.jpg");
+
 }
 
 h1 {
@@ -73,7 +74,7 @@ h1 {
   float:left;
   padding:2%;
   text-align: center;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 #answer {

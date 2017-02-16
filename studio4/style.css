@@ -48,290 +48,86 @@ table {
 
 
 /* add your custom css here */
-
 body {
-  background: grey;
-}
-
-li {
-  margin: .5%;
-  height: 10%;
-  float: left;
-  padding: .5%;
-  top: 15%;
-  font-family: helvetica;
-  font-size: 1.4em;
-  font-weight: bold;
-  background-color: white;
-}
-
-li:hover {
-  background:red;
-}
-
-nav {
-  margin-top: 3%;
-  width: 50%;
-  margin-left:20%;
-  background-color: white;
+  background-image: url("trump.jpg");
 }
 
 h1 {
-  padding: 1%;
-  font-family: helvetica;
-  font-size: 5em;
-  width: 50%;
-  float: right;
-  text-align: center;
-  background-color: white;
-}
-
-h2 {
-  padding:2%;
-  font-family: helvetica;
-  font-size: 3em;
-  font-weight: bold;
-  color:black;
-}
-
-
-h3 {
-  padding:2%;
-  font-family: helvetica;
-  font-size: 2em;
-  color:red;
-}
-
-#timer {
-  padding: 1%;
-  font-family: helvetica;
-  font-size: 5em;
-  width: 46%;
-  float: left;
-  text-align: center;
   background-color: black;
-  color:red;
-  font-family: helvetica;
+  font-size: 3em;
+  font-family: sans-serif;
+  color:white;
+  padding: 2%;
+  text-align: center;
 }
 
-aside {
-  float: right;
-  margin-right: 5%;
-  width: 35%;
-  height:100%;
-  background: white;
-  padding: 5%;
-  font-family: helvetica;
-  font-size: 1.3em;
-  margin-top:8%;
+#question {
+  display: inline-block;
+  margin-top: 2%;
+  width:100%;
+  background-color: white;
+  opacity: .8;
+  font-size: 2em;
+  font-family: sans-serif;
+  color:black;
+  float:left;
+  padding:2%;
+  text-align: center;
 }
 
-.clock {
+#answer {
+  display: inline-block;
+  margin-top: 1%;
+  width:30%;
+  text-align: center;
   background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
+  opacity:0;
+  font-size: 2em;
+  font-family: sans-serif;
+  color:white;
   float:left;
+  padding:2%;
 }
 
-.clockTwo {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
+
+#clockquestion {
   float:left;
+  padding-left: 5%;
+  padding-top:2%;
 }
 
-.clockThree {
-    background-color: red;
-  position:fixed;
-margin-top:13%;
-  margin-left:5%;
+#clockanswer {
   float:left;
+  opacity:0;
 }
 
-.clockFour {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
+#warning {
+  display: inline-block;
+  margin-top: 1%;
+  width:30%;
+  text-align: center;
+  background-color: red;
+  opacity:0;
+  font-size: 2em;
+  font-family: sans-serif;
+  color:white;
   float:left;
+  padding:2%;
 }
-
-.clockFive {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockSix {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockSeven {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockEight {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockNine {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockTen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockEleven {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockTwelve {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockThirteen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockFourteen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockFifteen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockSixteen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockSeventeen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockEighteen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockNineteen {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockTwenty {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockTwentyOne {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockTwentyTwo {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockTwentyThree {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
-.clockTwentyFour {
-    background-color: red;
-  position:fixed;
-  margin-top:13%;
-  margin-left:5%;
-  float:left;
-}
-
 
 
 footer {
-    position:fixed;
-    bottom:0%;
-    width:100%;
-    height:3%;
-    background-color: black;
-    text-align: center;
-    padding-top:1%;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 3%;
+  background-color: black;
+  text-align: center;
+  padding-top: 1%;
 }
 
 a {
-  color:red;
+  color: red;
   font-family: serif;
-  font-size:1em;
+  font-size: 1em;
 }

@@ -58,7 +58,7 @@ h1 {
   font-size: 2em;
   font-family: sans-serif;
   color:white;
-  padding: 2%;
+  padding: 1%;
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ h1 {
 
 #clockquestion {
   float:left;
-  padding-left: 5%;
+  padding-left:15%;
   padding-top:2%;
 }
 
@@ -119,16 +119,17 @@ h1 {
 
 #countdown {
   background-color: black;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: sans-serif;
   color:red;
   padding-right: 35%;
   text-align: center;
+
 }
 
 #text {
   background-color: black;
-  font-size: 1em;
+  font-size: 1.5em;
   font-family: sans-serif;
   color:red;
   padding-right: 35%;

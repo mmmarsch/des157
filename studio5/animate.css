@@ -3367,8 +3367,8 @@ img {
 
 .gif {
   position:absolute;
-  padding-top: 20%;
-  padding-left:5%;
+  padding-top: 50px;
+  padding-left:20px;
   display:block;
 }
 
@@ -3377,8 +3377,8 @@ img {
 .title {
   display: block;
   position:absolute;
-  top:18%;
-  left:18%;
+  top:60px;
+  left:220px;
   clear:both;
   -webkit-animation-delay:1s;
   -webkit-animation-delay:4s;
@@ -3387,8 +3387,8 @@ img {
 .underline {
   display: block;
   position:absolute;
-  top:18%;
-  left:19%;
+  top:60px;
+  left:222px;
   clear:both;
   -webkit-animation-delay:1s;
   -webkit-animation-delay:5s;
@@ -3397,8 +3397,8 @@ img {
 .coffee {
   display: block;
   position:absolute;
-  top:45%;
-  left:40%;
+  top:320px;
+  left:450px;
   clear:both;
   -webkit-animation-delay:1s;
   -webkit-animation-delay:6s;
@@ -3407,8 +3407,8 @@ img {
 .textbox {
   display: block;
   position:absolute;
-  top: 45%;
-  left: 50%;
+  top: 350px;
+  left: 450px;
   clear:both;
   -webkit-animation-delay:1s;
   -webkit-animation-delay:5s;

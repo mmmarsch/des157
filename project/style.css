@@ -39,8 +39,9 @@ p {
 img {
   padding: 5%;
   display: block;
-  margin-left: 10%;
+  margin-left: 15%;
   width: 600px;
+  display:inline-block;
 }
 
 footer {

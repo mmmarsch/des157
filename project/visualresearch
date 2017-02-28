@@ -9,10 +9,15 @@
 <body>
 
 <h1> Visual Research </h1>
-<h2> Moodboard 1 </h2>
- <img src="moodboard-01.png" alt="moodboard 1">
-<h2> Moodboard 2 </h2>
- <img src="moodboard-02.png" alt="moodboard 2">
+
+<h2> Mood Board One </h2>
+
+ <img src="moodboard-01.png" alt="mood board one">
+
+ <h2> Mood Board Two </h2>
+
+
+ <img src="moodboard-02.png" alt="mood board two">
 
 <footer>
 		<a href="https://validator.w3.org/check?uri=referer" target="_blank">Valid HTML 5 |</a>

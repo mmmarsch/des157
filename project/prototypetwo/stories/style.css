@@ -49,38 +49,43 @@ table {
 footer {
   position: fixed;
   top: 95%;
+  padding-top: 1%;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  color: purple;
+  font-size: 1em;
+  font-family: 'noteworthy';
 }
 
-
-
-
- h1 {
+h1 {
   background-color: white;
-  color:purple;
+  color: purple;
   font-size: 3em;
-  font-family:'noteworthy';
+  font-family: 'noteworthy';
   padding: 2%;
   text-align: center;
   margin-top: 10%;
   margin-bottom: 10%;
-  margin-left:27%;
+  margin-left: 27%;
   width: 40%;
- }
+}
 
- h2 {
+h2 {
   background-color: white;
-  color:purple;
+  color: purple;
   font-size: 2em;
-  font-family:'noteworthy';
+  font-family: 'noteworthy';
   padding: 2%;
   text-align: center;
   margin-top: 5%;
-  margin-left:35%;
+  margin-left: 35%;
   width: 25%;
- }
+}
 
 a {
   text-decoration: none;
+  color: purple;
 }
 
 a:hover {

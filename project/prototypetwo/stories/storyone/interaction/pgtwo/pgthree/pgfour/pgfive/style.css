@@ -49,60 +49,63 @@ table {
 footer {
   position: fixed;
   top: 95%;
+  padding-top: 1%;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  color: purple;
+  font-size: 1em;
+  font-family: 'noteworthy';
 }
 
-
 h1 {
- background-color: white;
- color:purple;
- font-size: 3em;
- font-family:'noteworthy';
- padding: 2%;
- text-align: center;
- margin-top: 40%;
- margin-bottom: 10%;
- margin-left:27%;
- width: 40%;
+  background-color: white;
+  color: purple;
+  font-size: 3em;
+  font-family: 'noteworthy';
+  padding: 2%;
+  text-align: center;
+  margin-top: 40%;
+  margin-bottom: 10%;
+  margin-left: 27%;
+  width: 40%;
 }
 
 h2 {
- background-color: white;
- color:purple;
- font-size: 2em;
- font-family:'noteworthy';
- padding: 2%;
- text-align: center;
- margin-top: 5%;
- margin-left:35%;
- width: 25%;
+  background-color: white;
+  color: purple;
+  font-size: 2em;
+  font-family: 'noteworthy';
+  padding: 2%;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 25%;
 }
 
 a {
   text-decoration: none;
-  font-color: purple
-
+  color: purple
 }
 
-
 a:hover {
- font-size: 1.5em;
+  font-size: 1.5em;
 }
 
 a:visited {
- text-decoration: none;
- font-color: purple;
-
+  text-decoration: none;
+  font-color: purple;
 }
 
 body {
- background-image: url(back.png);
- background-size: 100%;
- background-repeat: no-repeat;
- background-attachment: absolute;
+  background-image: url(back.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
 }
 
 img[src="door.png"] {
- width:90%;
- margin-top: 20%;
- margin-left: 6%;
+  width: 90%;
+  margin-top: 20%;
+  margin-left: 6%;
 }

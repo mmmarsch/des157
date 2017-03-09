@@ -49,33 +49,40 @@ table {
 footer {
   position: fixed;
   top: 95%;
+  padding-top: 1%;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  color: purple;
+  font-size: 1em;
+  font-family: 'noteworthy';
 }
 
 img[src="back.png"] {
-  width:100%;
-  position:fixed;
-   }
-
+  width: 100%;
+  position: fixed;
+}
 
 img[src="logo.png"] {
-  width:100%;
-  position:fixed;
+  width: 100%;
+  position: fixed;
   top: 20%;
- }
+}
 
- h2 {
-  position:fixed;
+h2 {
+  position: fixed;
   background-color: white;
-  color:purple;
+  color: purple;
   font-size: 4em;
-  font-family:'noteworthy';
+  font-family: 'noteworthy';
   padding: 2%;
-  top:85%;
-  left:35%;
- }
+  top: 85%;
+  left: 40%;
+}
 
 a {
   text-decoration: none;
+  color: purple;
 }
 
 a:hover {

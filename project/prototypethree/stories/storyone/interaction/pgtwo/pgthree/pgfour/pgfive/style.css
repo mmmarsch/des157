@@ -61,41 +61,35 @@ footer {
 h1 {
   background-color: white;
   color: purple;
-  font-size: 3em;
-  font-family: 'noteworthy';
+  font-size: 4em;
+  font-family: 'Amatic SC', cursive;
   padding: 2%;
   text-align: center;
-  margin-top: 40%;
-  margin-bottom: 10%;
+  margin-top: 20%;
+  margin-bottom: 5%;
   margin-left: 27%;
   width: 40%;
+  border-radius: 25px;
 }
 
 h2 {
   background-color: white;
   color: purple;
-  font-size: 2em;
-  font-family: 'noteworthy';
+  font-size: 2.5em;
+  font-family: 'Amatic SC', cursive;
   padding: 2%;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 7%;
   margin-left: 35%;
   width: 25%;
+  border-radius: 25px;
+  -webkit-animation-delay:1s;
 }
-
 a {
   text-decoration: none;
   color: purple
 }
 
-a:hover {
-  font-size: 1.5em;
-}
-
-a:visited {
-  text-decoration: none;
-  font-color: purple;
-}
 
 body {
   background-image: url(back.png);

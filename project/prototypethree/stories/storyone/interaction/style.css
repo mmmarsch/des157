@@ -87,6 +87,9 @@ body {
   background-attachment: absolute;
 }
 
+.words {
+    -webkit-animation-delay:10s;
+}
 
 
 #rain {

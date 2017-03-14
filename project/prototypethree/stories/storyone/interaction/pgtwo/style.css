@@ -46,7 +46,6 @@ table {
   border-spacing: 0;
 }
 
-
 h1 {
   background-color: white;
   color: purple;
@@ -77,7 +76,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: purple
+  color: purple;
 }
 
 
@@ -88,74 +87,89 @@ body {
   background-attachment: absolute;
 }
 
-img[src="skyone.png"] {
-  width: 100%;
-  margin-top: 40%;
-  margin-left: -30%;
-  position:absolute;
-}
-
-img[src="door.png"] {
-  width: 40%;
-  margin-top: 50%;
-  margin-left: 30%;
-  position:absolute;
-}
-img[src="flowerdoor.png"] {
-  width: 40%;
-  margin-top: 50%;
-  margin-left: 30%;
-  position:absolute;
-}
-img[src="green.png"] {
-  width: 70%;
-  margin-top: 108%;
-  margin-left: 15%;
-  position:absolute;
-}
-img[src="treeone.png"] {
-  width: 60%;
-  margin-top: 35%;
-  margin-left: 0%;
-  position:absolute;
-}
-img[src="treetwo.png"] {
-  width: 60%;
-  margin-top: 35%;
-  margin-left: 40%;
-  position:absolute;
-}
-
-.tree {
--webkit-animation-delay:3s;
-}
-.treetwo {
-  -webkit-animation-delay:3s;
-}
-
-.door {
-  -webkit-animation-delay:1s;
-}
-
-.flower {
-  width: 60%;
-  margin-top: 35%;
-  margin-left: 10%;
-  position:absolute;
-  -webkit-animation-delay:4s;
-}
-
-.flowertwo {
-  width: 60%;
-  margin-top: 35%;
-  margin-left: 70%;
-  position:absolute;
-  -webkit-animation-delay:4s;
-}
-
 .words {
     -webkit-animation-delay:10s;
 }
+
+
+
+.grass {
+  width: 70%;
+  margin-top: 100%;
+  margin-left: 15%;
+  position:absolute;
+  display:block;
+}
+
+img {
+  width:100%;
+  position:absolute;
+  display:block;
+}
+
+.door {
+  width: 30%;
+  margin-top: 50%;
+  margin-left: 35%;
+  position:absolute;
+  display:block;
+
+}
+
+.flowers {
+  width: 30%;
+  margin-top: 50%;
+  margin-left: 35%;
+  position:absolute;
+  display:block;
+  -webkit-animation-delay:3s;
+}
+
+.flowerone {
+  width: 20%;
+  margin-top: 40%;
+  margin-left: 10%;
+  position:absolute;
+  display:block;
+  -webkit-animation-delay:3s;
+}
+
+.flowertwo {
+  width: 20%;
+  margin-top: 40%;
+  margin-left: 70%;
+  position:absolute;
+  display:block;
+  -webkit-animation-delay:3s;
+}
+
+
+.sky {
+  width: 100%;
+  margin-top: 40%;
+  margin-left: 0%;
+  position:absolute;
+  display:block;
+}
+
+.treeone{
+  margin-top: 50%;
+  margin-left:-10%;
+  width:60%;
+  position:absolute;
+  display:block;
+    -webkit-animation-delay:3s;
+}
+
+.treetwo{
+  margin-top:20%;
+  margin-left:40%;
+  width:80%;
+  position:absolute;
+  display:block;
+    -webkit-animation-delay:3s;
+}
+
 
 /*!
  * animate.css -http://daneden.me/animate

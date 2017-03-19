@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var audio, playbtn;
     function initAudioPlayer () {
       audio = new Audio ();
-      audio.src = "take1.mp3";
+      audio.src = "one.mp3";
       audio.loop = true;
       audio.play ();
       // object references

@@ -91,6 +91,15 @@ body {
     -webkit-animation-delay:10s;
 }
 
+button {
+  background: url(pause.png) no-repeat;
+  border:none;
+  width:100px;
+  height: 50px;
+  outline:none;
+  margin-left: 10%;
+  margin-top: 10%;
+}
 
 #rain {
   display:none;

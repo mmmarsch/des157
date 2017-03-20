@@ -57,7 +57,7 @@ img[src="bottomcloud.png"] {
 img[src="topcloud.png"] {
   width: 100%;
   position: fixed;
-  top:-10%;
+  top:0%;
 }
 
 
@@ -130,7 +130,7 @@ a {
   animation-duration: .75s;
 }
 
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -158,7 +158,6 @@ a {
 footer {
   position: fixed;
   top: 95%;
-  background-color: none;
   color: purple;
   font-size: 2em;
   font-family: 'Amatic SC', cursive;

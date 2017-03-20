@@ -54,7 +54,7 @@ h1 {
   font-family: 'Amatic SC', cursive;
   padding: 2%;
   text-align: center;
-  margin-top: 35%;
+  margin-top: 40%;
   margin-bottom: 5%;
   margin-left: 27%;
   width: 40%;
@@ -85,7 +85,6 @@ body {
   background-image: url(back.png);
   background-size: 110%;
   background-repeat: no-repeat;
-  background-attachment: absolute;
 }
 
 img[src="bottomcloud.png"] {
@@ -141,7 +140,7 @@ img[src="topcloud.png"] {
 }
 
 
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -169,9 +168,7 @@ img[src="topcloud.png"] {
 footer {
   position: fixed;
   top: 95%;
-  background-color: none;
   color: purple;
   font-size: 2em;
   font-family: 'Amatic SC', cursive;
-
 }

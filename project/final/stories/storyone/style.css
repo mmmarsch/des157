@@ -50,11 +50,11 @@ table {
 h1 {
   background-color: white;
   color: purple;
-  font-size: 3em;
+  font-size: 4em;
   font-family: 'Amatic SC', cursive;
   padding: 2%;
   text-align: center;
-  margin-top: 35%;
+  margin-top: 45%;
   margin-bottom: 5%;
   margin-left: 27%;
   width: 40%;
@@ -64,7 +64,7 @@ h1 {
 h2 {
   background-color: white;
   color: purple;
-  font-size: 2em;
+  font-size: 3em;
   font-family: 'Amatic SC', cursive;
   padding: 2%;
   text-align: center;
@@ -83,7 +83,7 @@ a {
 
 body {
   background-image: url(back.png);
-  background-size: 100%;
+  background-size: 110%;
   background-repeat: no-repeat;
   background-attachment: absolute;
 }
@@ -164,4 +164,14 @@ img[src="topcloud.png"] {
 .fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
+}
+
+footer {
+  position: fixed;
+  top: 95%;
+  background-color: none;
+  color: purple;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+
 }

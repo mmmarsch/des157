@@ -84,7 +84,6 @@ body {
   background-image: url(back.png);
   background-size: 100%;
   background-repeat: no-repeat;
-  background-attachment: absolute;
 }
 
 .words {
@@ -110,7 +109,7 @@ img {
   width: 100%;
   height: 100%;
   position:absolute;
-  display:block;:
+  display:block;
 }
 
 /*!
@@ -147,7 +146,7 @@ img {
 }
 
 
-@-webkit-keyframes slideInRight {
+@keyframes slideInRight {
   from {
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
@@ -161,7 +160,7 @@ img {
 }
 
 
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -186,7 +185,7 @@ img {
   animation-name: fadeIn;
 }
 
-@-webkit-keyframes fadeOut {
+@keyframes fadeOut {
   from {
     opacity: 1;
   }
@@ -214,7 +213,6 @@ img {
 footer {
   position: fixed;
   top: 95%;
-  background-color: none;
   color: purple;
   font-size: 2em;
   font-family: 'Amatic SC', cursive;
